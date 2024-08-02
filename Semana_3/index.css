@@ -1,0 +1,42 @@
+body {
+	background-image: url(img/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+	color: #fff; 
+	font-family: Arial, sans-serif; 
+	text-align: center; 
+}
+
+h1, h3 {
+	color: #ff9900; 
+	margin-bottom: 10px; 
+}
+
+p {
+	margin-bottom: 20px; 
+}
+
+button {
+	background-color: #ff1010; 
+	color: #fff; 
+	border: none; 
+	padding: 10px 20px; 
+	margin: 10px; 
+	border-radius: 5px; 
+	cursor: pointer; 
+}
+
+button:hover {
+	background-color: #777; /
+}
+
+#pelicula {
+	margin-top: 20px; 
+	color: #ff9900; 
+}
+
+h4 {
+	color: #ff9900; 
+	margin-bottom: 10px; 
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>¡Bienvenidos al cine!</h1>
+    <h3>---Menú---</h3>
+    <p>Queremos hacer de tu vista, una experiencia más placentera para eso,
+         ingresa tu edad y selecciona el género que mas te gusta, y te 
+         recomendamos tu pelicula ideal.</p>
+
+    <label for="Edad ">Edad: </label>
+    <input type="text" id="edad">   <br><br>
+
+    <button id="btn" onclick="drama()">Drama</button>
+    <button onclick="comedia()">Comedia</button>
+    <button onclick="musical()">Músical</button>
+    <button onclick="crimen()">Crimen</button>
+
+    
+
+    <h3>Nuestra recomendación: </h3>
+    <p id="pelicula"></p>
+
+
+</body>
+</html>
